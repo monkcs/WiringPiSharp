@@ -6,10 +6,10 @@ namespace WiringPiSharp
 {
     public static class SoftPwm
     {
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "softPwmCreate")]
+        [DllImport("libwiringPi.so", EntryPoint = "softPwmCreate")]
         public static extern int SoftPwmCreate(int pin, int value, int range);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "softPwmWrite")]
+        [DllImport("libwiringPi.so", EntryPoint = "softPwmWrite")]
         public static extern void SoftPwmWrite(int pin, int value);
     }
 }

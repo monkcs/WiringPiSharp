@@ -7,11 +7,11 @@ namespace WiringPiSharp
 {
     public static class Interrupts
     {
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "waitForInterrupt")]
+        [DllImport("libwiringPi.so", EntryPoint = "waitForInterrupt")]
         public static extern int waitForInterrupt(int pin, int timeout);
 
         public static int WiringPiISR(int pin, WiringPi.EdgeMode mode, Action method) { return WiringPiPiISR(pin, (int)mode, method); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "wiringPiISR")]
+        [DllImport("libwiringPi.so", EntryPoint = "wiringPiISR")]
         static extern int WiringPiPiISR(int pin, int mode, Action method);
     }
 }

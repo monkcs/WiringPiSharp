@@ -14,7 +14,7 @@ namespace WiringPiSharp
         /// <param name="pin">The pin to setup</param>
         /// <param name="mode">The mode to assign the pin</param>
         public static void PinMode(WiringPi.WPiPinout pin, WiringPi.PinMode mode) { PinMode((int)pin, (int)mode); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "pinMode")]
+        [DllImport("libwiringPi.so", EntryPoint = "pinMode")]
         static extern void PinMode(int pin, int mode);
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace WiringPiSharp
         /// <param name="pin">The pin to setup</param>
         /// <param name="mode">The mode to assign the input pin</param>
         public static void PullUpDnControl(WiringPi.WPiPinout pin, WiringPi.PullMode mode) { PullUpDnControl((int)pin, (int)mode); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "pullUpDnControl")]
+        [DllImport("libwiringPi.so", EntryPoint = "pullUpDnControl")]
         static extern void PullUpDnControl(int pin, int mode);
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace WiringPiSharp
         /// <param name="pin">The pin to read the value of</param>
         /// <returns>Returns true for high</returns>
         public static bool DigitalReading(WiringPi.WPiPinout pin) { return Convert.ToBoolean(DigitalRead((int)pin)); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "digitalRead")]
+        [DllImport("libwiringPi.so", EntryPoint = "digitalRead")]
         static extern int DigitalRead(int pin);
 
         /// <summary>
@@ -41,7 +41,7 @@ namespace WiringPiSharp
         /// <param name="pin"></param>
         /// <param name="value"></param>
         public static void DigitalWrite(WiringPi.WPiPinout pin, bool value) { DigitalWrite((int)pin, Convert.ToInt32(value)); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "digitalWrite")]
+        [DllImport("libwiringPi.so", EntryPoint = "digitalWrite")]
         static extern void DigitalWrite(int pin, int value);
 
         /// <summary>
@@ -50,15 +50,15 @@ namespace WiringPiSharp
         /// <param name="pin">The pin to use for PWM</param>
         /// <param name="value">Range is 0-1024</param>
         public static void PwmWrite(WiringPi.WPiPinout pin, int value) {PwmWrite((int)pin,value); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "pwmWrite")]
+        [DllImport("libwiringPi.so", EntryPoint = "pwmWrite")]
         static extern void PwmWrite(int pin, int value);
 
         public static int AnalogRead(WiringPi.WPiPinout pin) { return AnalogRead((int)pin); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "analogRead")]
+        [DllImport("libwiringPi.so", EntryPoint = "analogRead")]
         static extern int AnalogRead(int pin);
 
         public static void AnalogWrite(WiringPi.WPiPinout pin, int value) { AnalogWrite((int)pin, value); }
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "analogWrite")]
+        [DllImport("libwiringPi.so", EntryPoint = "analogWrite")]
         static extern void AnalogWrite(int pin, int value);
     }
 }

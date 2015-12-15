@@ -6,10 +6,10 @@ namespace WiringPiSharp
 {
     public static class SoftTone
     {
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "softToneCreate")]
+        [DllImport("libwiringPi.so", EntryPoint = "softToneCreate")]
         public static extern int SoftToneCreate(int pi);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "softToneWrite")]
+        [DllImport("libwiringPi.so", EntryPoint = "softToneWrite")]
         public static extern void SoftToneWrite(int pin, int frewq);
     }
 }

@@ -96,34 +96,34 @@ namespace WiringPiSharp
         public const int Lsbfirst = 0;
         public const int Msbfirst = 1;
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "piBoardRev")]
+        [DllImport("libwiringPi.so", EntryPoint = "piBoardRev")]
         public static extern int PiBoardRev();
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "wpiPinToGpio")]
+        [DllImport("libwiringPi.so", EntryPoint = "wpiPinToGpio")]
         public static extern int WPIPinToGPIO(int wpiPin);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "setPadDrive")]
+        [DllImport("libwiringPi.so", EntryPoint = "setPadDrive")]
         public static extern void SetPadDrive(int group, int value);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "getAlt")]
+        [DllImport("libwiringPi.so", EntryPoint = "getAlt")]
         public static extern int GetAlt(int pin);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "digitalWriteByte")]
+        [DllImport("libwiringPi.so", EntryPoint = "digitalWriteByte")]
         public static extern void DigitalWriteByte(int value);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "pwmSetMode")]
+        [DllImport("libwiringPi.so", EntryPoint = "pwmSetMode")]
         public static extern void PwmSetMode(int mode);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "pwmSetRange")]
+        [DllImport("libwiringPi.so", EntryPoint = "pwmSetRange")]
         public static extern void PwmSetRange(uint range);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "pwmSetClock")]
+        [DllImport("libwiringPi.so", EntryPoint = "pwmSetClock")]
         public static extern void PwmSetClock(int divisor);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "gpioClockSet")]
+        [DllImport("libwiringPi.so", EntryPoint = "gpioClockSet")]
         public static extern void GpioClockSet(int pin, int freq);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "piHiPri")]
+        [DllImport("libwiringPi.so", EntryPoint = "piHiPri")]
         public static extern int PiHiPri(int pri);
     }
 }

@@ -7,13 +7,13 @@ namespace WiringPiSharp
 {
     public static class Threads
     {
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "piThreadCreate")]
+        [DllImport("libwiringPi.so", EntryPoint = "piThreadCreate")]
         public static extern int PiThreadCreate([MarshalAs(UnmanagedType.FunctionPtr)] Action<IntPtr> method);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "piLock")]
+        [DllImport("libwiringPi.so", EntryPoint = "piLock")]
         public static extern void PiLock(int key);
 
-        [DllImport("libwiringPi.so.2.0", EntryPoint = "piUnlock")]
+        [DllImport("libwiringPi.so", EntryPoint = "piUnlock")]
         public static extern void PiUnlock(int key);
     }
 }
