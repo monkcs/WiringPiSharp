@@ -39,7 +39,7 @@ class Program
 {
     public static void Main()
     {
-        Setup.WiringPiPiSetupGpio();
+        Setup.WiringPiPiSetup();
         GPIO.PinMode(WPiPinout.P14, PinMode.Output);
         while (true)
         {
