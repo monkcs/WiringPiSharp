@@ -2,7 +2,7 @@ WiringPiSharp
 =============
 
 A nice little C# wrapper library for .Net of Gordon's [WiringPi](http://wiringpi.com "WiringPi homepage") library.
-It take advantage ofstrongly-typed enum for pin and value input, to prevent error. It is in its initial stages but it works! 🙂
+It take advantage of strongly-typed enum for pin and value input, to prevent error. It is in its initial stages but it works! 🙂
 
 Getting Started
 ---------------
