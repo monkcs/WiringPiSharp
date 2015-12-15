@@ -6,21 +6,93 @@ namespace WiringPiSharp
 {
     public static class WiringPi
     {
-        public const int Input = 0;
-        public const int Output = 1;
-        public const int PwmOutput = 2;
-        public const int GpioClock = 3;
+        /// <summary>
+        /// The mode to assign to pins
+        /// </summary>
+        public enum PinMode
+        {
+            /// <summary>
+            /// For reciving data
+            /// </summary>
+            Input = 0,
+            /// <summary>
+            /// To output data
+            /// </summary>
+            Output = 1,
+            /// <summary>
+            /// Pulse width modulation output
+            /// </summary>
+            PwmOutput = 2,
+            GpioClock = 3
+        }
+
+        /// <summary>
+        /// Sets the pull-up or pull-down internal resistor mode on the given pin
+        /// </summary>
+        public enum PullMode
+        {
+            /// <summary>
+            /// No internal resistor
+            /// </summary>
+            Off = 0,
+            /// <summary>
+            /// Sets pull-down resistor
+            /// </summary>
+            Down = 1,
+            /// <summary>
+            /// Sets pull-up resistor
+            /// </summary>
+            Up = 2
+        }
+        public enum EdgeMode
+        {
+            IntEdgeSetup = 0,
+            IntEdgeFalling = 1,
+            IntEdgeRising = 2,
+            IntEdgeBoth = 3
+        }
+
+        /// <summary>
+        /// The Wiring Pi pinout
+        /// </summary>
+        public enum WPiPinout
+        {
+            P0 = 0,
+            P1 = 1,
+            P2 = 2,
+            P3 = 3,
+            P4 = 4,
+            P5 = 5,
+            P6 = 6,
+            P7 = 7,
+            P8 = 8,
+            P9 = 9,
+            P10 = 10,
+            P11 = 11,
+            P12 = 12,
+            P13 = 13,
+            P14 = 14,
+            P15 = 15,
+            P16 = 16,
+            P17 = 17,
+            P18 = 18,
+            P19 = 19,
+            P20 = 20,
+            P21 = 21,
+            P22 = 22,
+            P23 = 23,
+            P24 = 24,
+            P25 = 25,
+            P26 = 26,
+            P27 = 27,
+            P28 = 28,
+            P29 = 29,
+        }
+
         public const int Low = 0;
         public const int High = 1;
-        public const int PudOff = 0;
-        public const int PudDown = 1;
-        public const int PudUp = 2;
         public const int PwmModeMs = 0;
         public const int PwmModeBal = 1;
-        public const int IntEdgeSetup = 0;
-        public const int IntEdgeFalling = 1;
-        public const int IntEdgeRising = 2;
-        public const int IntEdgeBoth = 3;
         public const int Lsbfirst = 0;
         public const int Msbfirst = 1;
 
