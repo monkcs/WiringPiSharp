@@ -58,7 +58,7 @@ class Program
 More information
 ----------------
 All refrences and instructions are easy to get from the [WiringPi](http://wiringpi.com "WiringPi homepage") webpage.
-A really nice grapical pinout for WiringPi is [Gadgetoid](https://github.com/Gadgetoid/Pinout2 "Pinout2 on Github") http://pinout.xyz/pinout/wiringpi.
+A really nice grapical pinout for WiringPi is [Gadgetoid's](https://github.com/Gadgetoid/Pinout2 "Pinout2 on Github") http://pinout.xyz/pinout/wiringpi.
 
 #####*Good luck creating some awesome creations!* 😄
 
