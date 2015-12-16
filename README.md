@@ -28,7 +28,7 @@ cd wiringPi
    When you have the code, compile it using your favor of C# complier. After that it is only left for you to reference it in your project.
    
 ####3. Test it out!
-   Here are a small example of the WiringPi and the WiringPiSharp in action
+   Here are a small example of the WiringPi and the WiringPiSharp in action that will "blink" the output on pin 14:
    
 ```C#
 using System.Threading;
