@@ -2,7 +2,7 @@ WiringPiSharp
 =============
 
 A nice little C# wrapper library for .Net of Gordon's [WiringPi](http://wiringpi.com "WiringPi homepage") library.
-It take advantage of strongly-typed enum for pin and value input, to make it faster, easier and safer to access the underlying library. It is in its initial stages but it works! 🙂
+It take advantage of strongly-typed enum for pin and value input to make it faster, easier and safer to access the underlying Raspberry GPIO library. It is in its initial stages but it works! 🙂
 
 Getting Started
 ---------------
@@ -54,7 +54,15 @@ class Program
 
 
 > Just make sure that __*WiringPiSharp.dll*__ and __*libwiringPi.so*__ are in the same folder as your program when you run it on the Raspberry Pi
-   
+
+More information
+----------------
+All refrences and instructions are easy to get from the [WiringPi](http://wiringpi.com "WiringPi homepage") webpage.
+A really nice grapical pinout for WiringPi is [Gadgetoid](https://github.com/Gadgetoid/Pinout2 "Pinout2 on Github") http://pinout.xyz/pinout/wiringpi.
+
 #####*Good luck creating some awesome creations!* 😄
 
+
+
+---
 All praise should really go to Gordon@drogon for his great library which exposes all the required interfaces making my life and others that much easier. Cheers Gordon!!
