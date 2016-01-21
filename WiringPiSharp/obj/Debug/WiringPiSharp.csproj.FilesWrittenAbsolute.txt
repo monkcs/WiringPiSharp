@@ -1,0 +1,6 @@
+/home/charlie/Tamp/Projekt/Egna projekt/Mjukvara/Raspberry Pi/Robotix/WiringPiSharp/WiringPiSharp/obj/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/home/charlie/Tamp/Projekt/Egna projekt/Mjukvara/Raspberry Pi/Robotix/WiringPiSharp/WiringPiSharp/bin/Debug/WiringPiSharp.dll.mdb
+/home/charlie/Tamp/Projekt/Egna projekt/Mjukvara/Raspberry Pi/Robotix/WiringPiSharp/WiringPiSharp/bin/Debug/WiringPiSharp.dll
+/home/charlie/Tamp/Projekt/Egna projekt/Mjukvara/Raspberry Pi/Robotix/WiringPiSharp/WiringPiSharp/obj/Debug/WiringPiSharp.dll
+/home/charlie/Tamp/Projekt/Egna projekt/Mjukvara/Raspberry Pi/Robotix/WiringPiSharp/WiringPiSharp/obj/Debug/WiringPiSharp.dll.mdb
+/home/charlie/Tamp/Projekt/Egna projekt/Mjukvara/Raspberry Pi/Robotix/WiringPiSharp/WiringPiSharp/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs

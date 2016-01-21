@@ -8,6 +8,7 @@ namespace Example
     {
         static void Main(string[] args)
         {
+			/*
             Setup.WiringPiPiSetupGpio();
             GPIO.PinMode(18, WiringPi.Output);
             while (true)
@@ -17,6 +18,9 @@ namespace Example
                 GPIO.DigitalWrite(18, WiringPi.Low);
                 Thread.Sleep(500);
             }
+            */
+			+
+
         }
     }
 }

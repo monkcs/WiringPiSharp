@@ -1,0 +1,4 @@
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\bin\Release\WiringPiSharp.dll
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\bin\Release\WiringPiSharp.pdb
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Release\WiringPiSharp.dll
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Release\WiringPiSharp.pdb

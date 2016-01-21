@@ -1,0 +1,20 @@
+D:\Användare\Charlie Habolin\Desktop\WiringPiSharp-master\WiringPiSharp\bin\Debug\WiringPiSharp.dll
+D:\Användare\Charlie Habolin\Desktop\WiringPiSharp-master\WiringPiSharp\bin\Debug\WiringPiSharp.pdb
+D:\Användare\Charlie Habolin\Desktop\WiringPiSharp-master\WiringPiSharp\obj\Debug\WiringPiSharp.csprojResolveAssemblyReference.cache
+D:\Användare\Charlie Habolin\Desktop\WiringPiSharp-master\WiringPiSharp\obj\Debug\WiringPiSharp.dll
+D:\Användare\Charlie Habolin\Desktop\WiringPiSharp-master\WiringPiSharp\obj\Debug\WiringPiSharp.pdb
+D:\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\bin\Debug\WiringPiSharp.dll
+D:\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\bin\Debug\WiringPiSharp.pdb
+D:\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Debug\WiringPiSharp.csprojResolveAssemblyReference.cache
+D:\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Debug\WiringPiSharp.dll
+D:\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Debug\WiringPiSharp.pdb
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\bin\Debug\WiringPiSharp.dll
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\bin\Debug\WiringPiSharp.pdb
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Debug\WiringPiSharp.dll
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Debug\WiringPiSharp.pdb
+D:\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\Robotix\MONKCs studios - Robotix - kopia\WiringPiSharp\obj\Debug\WiringPiSharp.csprojResolveAssemblyReference.cache
+C:\Users\charl\Desktop\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\RX\WiringPiSharp\WiringPiSharp\bin\Debug\WiringPiSharp.dll
+C:\Users\charl\Desktop\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\RX\WiringPiSharp\WiringPiSharp\bin\Debug\WiringPiSharp.pdb
+C:\Users\charl\Desktop\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\RX\WiringPiSharp\WiringPiSharp\obj\Debug\WiringPiSharp.csprojResolveAssemblyReference.cache
+C:\Users\charl\Desktop\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\RX\WiringPiSharp\WiringPiSharp\obj\Debug\WiringPiSharp.dll
+C:\Users\charl\Desktop\Filerna\monkcs-studios-tamp\Projekt\Egna projekt\Mjukvara\Raspberry Pi\RX\WiringPiSharp\WiringPiSharp\obj\Debug\WiringPiSharp.pdb

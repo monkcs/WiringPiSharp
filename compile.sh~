@@ -1,0 +1,2 @@
+
+mcs /target:library /out:WiringPiSharp.dll WiringPiSharp/*.cs
