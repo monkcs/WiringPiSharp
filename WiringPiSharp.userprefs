@@ -1,23 +1,19 @@
 ﻿<Properties StartupItem="Example/Example.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Example/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WiringPiSharp/Lcd.cs">
     <Files>
-      <File FileName="WiringPiSharp/Devices.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/SoftPwm.cs" Line="16" Column="16" />
+      <File FileName="WiringPiSharp/SoftTone.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/SoftServo.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/Threads.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/Timing.cs" Line="1" Column="1" />
       <File FileName="WiringPiSharp/WiringPi.cs" Line="1" Column="1" />
-      <File FileName="Example/Program.cs" Line="23" Column="4" />
+      <File FileName="WiringPiSharp/SPI.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/I2C.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/GPIO.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/Shift.cs" Line="1" Column="1" />
+      <File FileName="WiringPiSharp/Lcd.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="WiringPiSharp" expanded="True">
-            <Node name="Example" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-            <Node name="WiringPiSharp" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
