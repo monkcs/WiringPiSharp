@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("WiringPi.Net")]
-[assembly: AssemblyDescription("This library  was written by Ton de Ron for Gordon Hendersons WiringPi C library")]
+[assembly: AssemblyDescription("This library was written by Ton de Ron for Gordon Hendersons WiringPi C library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TRONSoft")]
 [assembly: AssemblyProduct("WiringPi.Net")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
