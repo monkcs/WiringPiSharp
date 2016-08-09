@@ -1,4 +1,4 @@
-﻿﻿// Copyright (c) TRONSoft, Inc. All rights reserved. See License.txt in the project root for license information.
+﻿// Copyright (c) TRONSoft, Inc. All rights reserved. See License.txt in the project root for license information.
 
 using System.Runtime.InteropServices;
 
@@ -25,7 +25,7 @@ namespace WiringPiSharp
             PwmOutput = 2,
             GpioClock = 3
         }
-
+        
         /// <summary>
         /// Sets the pull-up or pull-down internal resistor mode on the given pin
         /// </summary>
@@ -93,8 +93,21 @@ namespace WiringPiSharp
         public const int High = 1;
         public const int PwmModeMs = 0;
         public const int PwmModeBal = 1;
-        public const int Lsbfirst = 0;
-        public const int Msbfirst = 1;
+
+		/// <summary>
+		/// Declare the byte order
+		/// </summary>
+		public enum ByteOrder
+		{
+			/// <summary>
+			/// Least significant byte first
+			/// </summary>
+			LsbFirst = 0,
+			/// <summary>
+			/// Most significant byte first
+			/// </summary>
+			MsbFirst = 1
+		}
 
         [DllImport("libwiringPi.so", EntryPoint = "piBoardRev")]
         public static extern int PiBoardRev();
