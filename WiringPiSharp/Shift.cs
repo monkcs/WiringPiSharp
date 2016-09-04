@@ -15,7 +15,7 @@ namespace WiringPiSharp
 		/// <param name="Data">The data to shift</param>
 		public static void ShiftOut(WiringPi.WPiPinout DataPin, WiringPi.WPiPinout ClockPin, WiringPi.ByteOrder ShiftOrder, byte Data)
 		{
-			ShiftOutRaw (DataPin, ClockPin, ShiftOrder, Data);
+			ShiftOutRaw ((byte)DataPin, (byte)ClockPin, (byte)ShiftOrder, Data);
 		}
         [DllImport("libwiringPi.so", EntryPoint = "shiftOut")]
         static extern void ShiftOutRaw(byte dataPin, byte clockPin, byte order, byte value);
@@ -29,7 +29,7 @@ namespace WiringPiSharp
 		/// <param name="ShiftOrder">Define the order to shift the byte in</param>
 		public static byte ShiftIn(WiringPi.WPiPinout DataPin, WiringPi.WPiPinout ClockPin, WiringPi.ByteOrder ShiftOrder)
 		{
-			ShiftInRaw (DataPin,ClockPin, ShiftOrder);
+			return ShiftInRaw ((byte)DataPin, (byte)ClockPin, (byte)ShiftOrder);
 		}
         [DllImport("libwiringPi.so", EntryPoint = "shiftIn")]
         static extern byte ShiftInRaw(byte dPin, byte cPin, byte order);
