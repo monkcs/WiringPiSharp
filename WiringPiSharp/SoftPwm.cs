@@ -12,7 +12,7 @@ namespace WiringPiSharp
 		/// <param name="pin">The pin to setup</param>
 		/// <param name="value"></param>
 		/// <param name="range"></param>
-		public static void SoftPwmCreate(WiringPi.WPiPinout pin, int value, int range) { SoftPwmCreate ((int)pin, value, range);}
+		public static void Create(WiringPi.WPiPinout pin, int value, int range) { SoftPwmCreate ((int)pin, value, range);}
         [DllImport("libwiringPi.so", EntryPoint = "softPwmCreate")]
         static extern int SoftPwmCreate(int pin, int value, int range);
 
@@ -21,7 +21,7 @@ namespace WiringPiSharp
 		/// </summary>
 		/// <param name="pin">The pin to change</param>
 		/// <param name="value"></param>
-		public static void SoftPwmWrite(WiringPi.WPiPinout pin, int value) { SoftPwmWrite((int)pin, value);}
+		public static void Write(WiringPi.WPiPinout pin, int value) { SoftPwmWrite((int)pin, value);}
         [DllImport("libwiringPi.so", EntryPoint = "softPwmWrite")]
         static extern void SoftPwmWrite(int pin, int value);
     }
