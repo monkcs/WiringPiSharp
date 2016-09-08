@@ -53,10 +53,20 @@ namespace WiringPiSharp
         [DllImport("libwiringPi.so", EntryPoint = "pwmWrite")]
         static extern void PwmWrite(int pin, int value);
 
+        /// <summary>
+        /// Returns the analog value of the pin
+        /// </summary>
+        /// <param name="pin">The pin to read the value of</param>
+        /// <returns></returns>
         public static int AnalogRead(WiringPi.WPiPinout pin) { return AnalogRead((int)pin); }
         [DllImport("libwiringPi.so", EntryPoint = "analogRead")]
         static extern int AnalogRead(int pin);
 
+        /// <summary>
+        /// Writes the analog value to the given pin
+        /// </summary>
+        /// <param name="pin"></param>
+        /// <param name="value"></param>
         public static void AnalogWrite(WiringPi.WPiPinout pin, int value) { AnalogWrite((int)pin, value); }
         [DllImport("libwiringPi.so", EntryPoint = "analogWrite")]
         static extern void AnalogWrite(int pin, int value);
