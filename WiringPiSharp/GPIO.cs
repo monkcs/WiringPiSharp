@@ -31,7 +31,7 @@ namespace WiringPiSharp
         /// </summary>
         /// <param name="pin">The pin to read the value of</param>
         /// <returns>Returns true for high</returns>
-        public static bool DigitalRead(WiringPi.WPiPinout pin) { return Convert.ToBoolean(DigitalRead((int)pin)); }
+        public static bool DigitalRead(WiringPi.WPiPinout pin) { return Convert.ToBoolean(DigitalReadRaw((int)pin)); }
         [DllImport("libwiringPi.so", EntryPoint = "digitalRead")]
         static extern int DigitalReadRaw(int pin);
 
